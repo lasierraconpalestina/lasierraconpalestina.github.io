@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Personal Website
-tagline: A template for a personal website
-email: firstname.lastname@e.email
-description: A template for a personal website, tailored for academics.
+title: La Sierra con Palestina
+tagline: La Sierra con Palestina
+email: lasierraconpalestina@proton.me
+description: La Sierra con Palestina
 author: Alex Hernandez-Garcia
-url: https://alexhernandezgarcia.github.io
+url: https://lasierraconpalestina.github.io
 
 # Reading Files
 include:
@@ -29,20 +29,12 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
 
 # Defaults
 defaults:
   - scope:
       path: ""
       type: "news"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "projects"
     values:
       layout: "page"
 
