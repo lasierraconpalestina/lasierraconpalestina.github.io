@@ -34,9 +34,10 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "news"
+      type: "pages"
     values:
-      layout: "page"
+      layout: page
+      hero_image: ./assets/images/banner/maldito_seas_estado_de_israel.jpg
 
 # Build settings
 markdown: kramdown
