@@ -1,29 +1,13 @@
-<div class="hero-foot">
-  <footer class="footer">
-    <div class="container">
-      <div class="content has-text-centered is-size-7">
-        <p>
-        Website created by Alex Hernandez-Garcia, based on 
-        <a href="https://alexhernandezgarcia.github.io/">alexhernandezgarcia.github.io</a>.
-        The code relies on 
-        <a href="https://jekyllrb.com/">jekyll</a>
-        and 
-        <a href="https://bulma.io/">bulma</a>.
-        You are welcome to fork 
-        <a href="https://github.com/alexhernandezgarcia/template-personal-website">the repository of the original template</a>
-        or directly 
-        <a href="https://github.com/lasierraconpalestina/lasierraconpalestina.github.io">this one</a>
-        to create your own website.<br>
-        Creative Commons License 
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-          <i class="fab fa-creative-commons fa-{{ include.icon-size }}" aria-hidden="true"></i>
-          <i class="fab fa-creative-commons-by fa-{{ include.icon-size }}" aria-hidden="true"></i>
-          <i class="fab fa-creative-commons-nc fa-{{ include.icon-size }}" aria-hidden="true"></i>
-          <i class="fab fa-creative-commons-sa fa-{{ include.icon-size }}" aria-hidden="true"></i>
-        </a>
-        </p>
-      </div>
-    </div>
-  </footer>
-</div>
-
+<footer class="footer">
+  <div class="content has-text-centered is-size-7">
+    {% capture content %}{% include footer.md %}{% endcapture %}
+    {{ content | markdownify }}
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <i class="fab fa-creative-commons fa-{{ include.icon-size }}" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-{{ include.icon-size }}" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-nc fa-{{ include.icon-size }}" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-sa fa-{{ include.icon-size }}" aria-hidden="true"></i>
+    </a>
+    Creative Commons License <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+  </div>
+</footer>
