@@ -1,7 +1,7 @@
 ---
 layout: page
-author: Alex Hernandez-Garcia
-title: My second post
+author: Autor del Artículo
+title: Segundo artículo de muestra
 permalink: /my-second-post
 ---
 Morbi pharetra ante nec tortor fringilla accumsan. Suspendisse erat neque, lobortis rhoncus magna convallis, imperdiet aliquam ipsum. Cras iaculis nunc at dolor semper, sed pellentesque enim venenatis. Etiam ultrices nec nisl eu consequat. Duis in pulvinar mi. Nullam vitae elit pharetra, porta tortor faucibus, scelerisque sapien. Duis eu leo ipsum. Nulla ac enim egestas, tincidunt tortor feugiat, dictum ex. In id orci dui. Aliquam at nunc in dolor porttitor elementum. Quisque in varius lectus. Donec lorem elit, imperdiet in lacinia a, faucibus in nisi.

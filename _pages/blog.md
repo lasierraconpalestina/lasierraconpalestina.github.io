@@ -3,7 +3,7 @@ layout: page
 title: Blog
 permalink: /blog
 ---
-## Latest Posts
+## Artículos recientes
 
 {% for post in site.posts %}
   - ### [{{ post.title }}]({{ post.url }})

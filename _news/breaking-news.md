@@ -1,6 +1,6 @@
 ---
 date: 2024-04-14
-title: Breaking News!
+title: ¡Tenemos novedades!
 layout: page
 ---
 Maecenas nulla metus, laoreet scelerisque mollis vitae.

@@ -1,7 +1,7 @@
 ---
 layout: page
-author: Alex Hernandez-Garcia
-title: My first post
+author: Autora del Artículo
+title: Primer artículo de muestra
 permalink: /my-first-post
 ---
 Cras porta nunc ac gravida pretium. Ut molestie dolor massa, vitae sodales nisi elementum at. Mauris quis dolor purus. Nulla facilisi. Proin ac lectus imperdiet augue ullamcorper fringilla quis eget lorem. Nunc tristique lorem ut nisl posuere, eu dictum risus elementum. Donec et tincidunt turpis, sit amet volutpat augue. Vestibulum egestas, metus id auctor luctus, eros lectus ullamcorper diam, sit amet pretium lorem ex sed nisi. Vivamus ipsum felis, dignissim vel nisl eu, tincidunt pulvinar ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque quis faucibus risus, quis suscipit quam. Fusce felis enim, maximus ut sodales sed, eleifend sit amet felis. Integer in pulvinar mauris.

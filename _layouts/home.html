@@ -14,7 +14,7 @@ layout: main
   {% if page.show_news %}
     <div class="column is-one-fifth content">
       <div class="has-text-centered content">
-        <h2>News</h2>
+        <h2>Novedades</h2>
       </div>
       {% assign news = site.news | sort: 'date' | reverse %}
       {% for entry in news limit:3 %}

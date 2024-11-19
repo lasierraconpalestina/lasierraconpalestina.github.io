@@ -1,6 +1,6 @@
 ---
 date: 2024-01-01
-title: Big News!
+title: ¡Importante!
 layout: page
 ---
 Sed fermentum quam eget purus auctor pellentesque. Cras ac magna et. 
