@@ -1,3 +1,9 @@
+---
+layout: home
+title: Home
+image: /assets/images/logo/circle_whitebg.png
+show_news: true
+---
 Lorem ipsum dolor sit amet. 
 
 #### One Section
@@ -6,3 +12,6 @@ Lorem ipsum dolor sit amet.
 
 #### Another Section
 Donec et vulputate velit. Praesent id tortor ac risus sodales bibendum sed condimentum arcu. Sed ante metus, consequat ac nulla nec, suscipit pharetra mi. Aliquam porttitor, erat at aliquet luctus, justo urna facilisis tellus, at fermentum nisl dolor eu mauris. Etiam tristique nunc nulla, a pharetra arcu iaculis a. Pellentesque posuere urna non mi malesuada, ac sodales nulla molestie. Aliquam erat volutpat. Sed dictum libero eros, at finibus felis auctor a. Ut nibh turpis, rutrum sit amet pretium id, placerat vitae libero. Etiam faucibus lacus neque, eget ultrices felis commodo nec. Proin viverra neque ut ligula commodo suscipit. 
+
+#### Contact
+firstname.lastname _at_ [e.email](https://e.foundation/)

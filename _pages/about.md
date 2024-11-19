@@ -1,3 +1,8 @@
+---
+layout: page
+title: About me
+permalink: /about
+---
 ### One Section
 
 Phasellus quis dui vel velit semper interdum ut et justo. Nulla sit amet ex quam. Praesent in tempor dui. Suspendisse vulputate arcu id arcu rutrum, ut venenatis tellus suscipit. Maecenas tincidunt nisl id tellus condimentum pellentesque. Aliquam facilisis mollis eros fermentum aliquet. Donec metus felis, pellentesque ac bibendum nec, tempus id nisl. Mauris id venenatis orci, ut tempor dolor. Nullam porttitor pharetra tellus, sit amet sollicitudin quam maximus vel. Suspendisse volutpat consequat viverra. Sed arcu velit, ornare vitae lorem et, fringilla feugiat urna.
