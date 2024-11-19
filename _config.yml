@@ -14,11 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: La Sierra con Palestina
-tagline: La Sierra con Palestina
+tagline: ¡No al genocidio!
 email: lasierraconpalestina@proton.me
 description: La Sierra con Palestina
 author: Alex Hernandez-Garcia
 url: https://lasierraconpalestina.github.io
+hero_image: /assets/images/banner/maldito_seas_estado_de_israel_gradient_green.png
 
 # Reading Files
 include:
@@ -37,7 +38,6 @@ defaults:
       type: "pages"
     values:
       layout: page
-      hero_image: ./assets/images/banner/maldito_seas_estado_de_israel.jpg
 
 # Build settings
 markdown: kramdown
