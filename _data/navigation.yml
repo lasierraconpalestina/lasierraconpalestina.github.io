@@ -1,4 +1,6 @@
+- name: Manifiesto
+  link: /manifiesto
 - name: Blog
-  link: /blog.html
+  link: /blog
 - name: ¿Quiénes somos?
-  link: /about.html
+  link: /about
