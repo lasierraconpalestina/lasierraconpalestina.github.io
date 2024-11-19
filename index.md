@@ -14,4 +14,21 @@ Lorem ipsum dolor sit amet.
 Donec et vulputate velit. Praesent id tortor ac risus sodales bibendum sed condimentum arcu. Sed ante metus, consequat ac nulla nec, suscipit pharetra mi. Aliquam porttitor, erat at aliquet luctus, justo urna facilisis tellus, at fermentum nisl dolor eu mauris. Etiam tristique nunc nulla, a pharetra arcu iaculis a. Pellentesque posuere urna non mi malesuada, ac sodales nulla molestie. Aliquam erat volutpat. Sed dictum libero eros, at finibus felis auctor a. Ut nibh turpis, rutrum sit amet pretium id, placerat vitae libero. Etiam faucibus lacus neque, eget ultrices felis commodo nec. Proin viverra neque ut ligula commodo suscipit. 
 
 #### Contacto
-firstname.lastname _at_ [e.email](https://e.foundation/)
+Puedes encontrarnos en nuestras redes sociales:
+<p class="buttons">
+{% for item in site.data.social %}
+  {% unless item.name == "Email" %}
+  <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
+    <span class="icon">
+      <i
+        class="{{ item.icon.type }} {{ item.icon.name }} {{ item.icon.source }}-{{ include.icon-size }}"
+        aria-hidden="true">
+      </i>
+    </span>
+    <span>{{ item.name }}</span>
+  </a>
+  {% endunless %}
+{% endfor %}
+</p>
+
+¡Síguenos y únete!
