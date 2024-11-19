@@ -4,7 +4,9 @@ title: Home
 image: /assets/images/logo/circle_whitebg.png
 show_news: true
 ---
-Lorem ipsum dolor sit amet. 
+_La Sierra con Palestina_ es una plataforma de vecinas y vecinos de la Sierra del Guadarrama creada para apoyar al pueblo palestino.
+
+Nuestro [manifiesto](/manifiesto) establece el objeto de nuestra denucia, nuestras exigencias al gobierno del estado español y los objetivos de la plataforma.
 
 #### Una sección de muestra
 [Lorem ipsum dolor sit amet](https://www.lipsum.com/), consectetur adipiscing elit. Nunc dui velit, interdum ac justo sit amet, pulvinar fermentum sem. Suspendisse in sem in odio venenatis rhoncus. Vivamus accumsan tristique est at dictum. Sed ornare enim vitae vehicula blandit. Pellentesque ex elit, elementum nec sem vel, pretium feugiat dui. Nullam interdum vitae diam et ultrices. Phasellus sollicitudin erat non ligula maximus tempor eu a turpis. Cras ac magna faucibus, faucibus arcu in, varius neque. Sed molestie finibus cursus. Mauris egestas id mi ac congue. Ut placerat felis egestas est dapibus, eu rutrum dolor iaculis. 
