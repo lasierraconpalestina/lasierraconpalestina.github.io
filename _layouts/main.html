@@ -19,10 +19,10 @@
     {% seo %}
   </head>
   <body>
-    {% include navigation.html icon-size="lg" %}
 		{% if site.hero_image %}
 			{% include hero.html %}
 		{% endif %}
+    {% include navigation.html icon-size="lg" %}
     <section class="section">
       <div class="container">
         {{ content }}

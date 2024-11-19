@@ -19,7 +19,11 @@ email: lasierraconpalestina@proton.me
 description: La Sierra con Palestina
 author: Alex Hernandez-Garcia
 url: https://lasierraconpalestina.github.io
+
+# Custom variables
 hero_image: /assets/images/banner/maldito_seas_estado_de_israel_gradient_green.png
+red_pali: "#ce1127ff"
+green_pali: "#007a3dff"
 
 # Reading Files
 include:
