@@ -1,5 +1,7 @@
 - name: Manifiesto
   link: /manifiesto
+- name: Acciones y eventos
+  link: /actions
 - name: Blog
   link: /blog
 - name: ¿Quiénes somos?

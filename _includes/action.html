@@ -1,0 +1,39 @@
+{% assign year_number = action.date | date: "%Y" %}
+{% assign month_number = action.date | date: "%m" %}
+{% assign day_number = action.date | date: "%e" %}
+{% case month_number %}
+  {% when '01' %} {% assign mes = 'enero' %}
+  {% when '02' %} {% assign mes = 'febrero' %}
+  {% when '03' %} {% assign mes = 'marzo' %}
+  {% when '04' %} {% assign mes = 'abril' %}
+  {% when '05' %} {% assign mes = 'mayo' %}
+  {% when '06' %} {% assign mes = 'junio' %}
+  {% when '07' %} {% assign mes = 'julio' %}
+  {% when '08' %} {% assign mes = 'agosto' %}
+  {% when '09' %} {% assign mes = 'septiembre' %}
+  {% when '10' %} {% assign mes = 'octubre' %}
+  {% when '11' %} {% assign mes = 'noviembre' %}
+  {% when '12' %} {% assign mes = 'diciembre' %}
+{% endcase %}
+
+<div class="content">
+  <h3>{{ action.name }}</h3>
+  <span class="icon">
+    <i class="fa-regular fa-calendar"></i>
+  </span>
+  <span><i>{{ day_number }} de {{ mes }} de {{ year_number }}</i></span>
+	<br>
+  {% for item in action.media %}
+  {% assign selected_medium = site.data.social | where: "name", item.name | first %}
+  <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
+    <span class="icon">
+      <i
+        class="{{ selected_medium.icon.type }} {{ selected_medium.icon.name }} {{ selected_medium.icon.source }}-{{ include.icon_size }}"
+        aria-hidden="true">
+      </i>
+    </span>
+    <span>{{ item.name }}</span>
+  </a>
+  {% endfor %}
+  <p>{{ action.description }}</p>
+</div>
