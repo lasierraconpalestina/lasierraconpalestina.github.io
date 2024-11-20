@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acciones y eventos
-permalink: /actions
+permalink: /acciones
 show_videos: false
 ---
 {% assign today = 'now' | date: "%Y-%m-%d" %}
