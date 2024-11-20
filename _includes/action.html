@@ -22,7 +22,7 @@
     <i class="fa-regular fa-calendar"></i>
   </span>
   <span><i>{{ day_number }} de {{ mes }} de {{ year_number }}</i></span>
-	<br>
+  <br>
   {% for item in action.media %}
   {% assign selected_medium = site.data.social | where: "name", item.name | first %}
   <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
@@ -36,4 +36,30 @@
   </a>
   {% endfor %}
   <p>{{ action.description }}</p>
+
+  <div class="columns is-multiline">
+  {% assign action_dir = "/assets/actions/" | append: action.id | append: "/" %}
+  {% for file in site.static_files %}
+    {% if file.path contains action_dir %}
+      {% if file.extname == ".jpg" or file.extname == ".jpeg" or file.extname == ".png" %}
+        <div class="column is-one-third">
+          <figure class="image">
+            <img src="{{ file.path | relative_url }}" alt="{{ file.name }}">
+          </figure>
+        </div>
+      {% elsif file.extname == ".mp4" or file.extname == ".webm" or file.extname == ".ogg" %}
+        {% if page.show_videos %}
+          <div class="column is-one-third">
+            <figure class="image">
+              <video width="100%" controls>
+                <source src="{{ file.path | relative_url }}" type="video/{{ file.extname | slice: 1 }}">
+                Your browser does not support the video tag.
+              </video>
+            </figure>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
 </div>

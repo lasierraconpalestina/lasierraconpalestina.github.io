@@ -2,6 +2,7 @@
 layout: page
 title: Acciones y eventos
 permalink: /actions
+show_videos: false
 ---
 {% assign today = 'now' | date: "%Y-%m-%d" %}
 {% assign future_actions = "" | split: "," %}
