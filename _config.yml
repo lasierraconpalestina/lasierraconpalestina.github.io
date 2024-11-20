@@ -16,9 +16,11 @@
 title: La Sierra con Palestina
 tagline: ¡No al genocidio!
 email: lasierraconpalestina@proton.me
-description: La Sierra con Palestina
+description: Plataforma de vecinas y vecinos de la Sierra del Guadarrama para apoyar al pueblo palestino.
 author: Alex Hernandez-Garcia
 url: https://lasierraconpalestina.github.io
+logo: assets/images/logo/circle_whitebg.png
+favicon: assets/images/logo/favicon.png
 
 # Custom variables
 hero_image: /assets/images/banner/maldito_seas_estado_de_israel_gradient_green.png
