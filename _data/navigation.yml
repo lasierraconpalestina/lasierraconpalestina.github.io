@@ -1,8 +1,10 @@
 - name: Manifiesto
   link: /manifiesto
-- name: Acciones y eventos
-  link: /acciones
-- name: Blog
-  link: /blog
 - name: ¿Quiénes somos?
   link: /about
+- name: Acciones y eventos
+  link: /acciones
+- name: Bibliografía
+  link: /bibliografia
+- name: Blog
+  link: /blog
