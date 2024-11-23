@@ -35,7 +35,7 @@
     <span>{{ item.name }}</span>
   </a>
   {% endfor %}
-  <p>{{ action.description }}</p>
+  <p>{{ action.description | markdownify }}</p>
 
   <div class="columns is-multiline">
   {% assign action_dir = "/assets/actions/" | append: action.id | append: "/" %}
