@@ -18,7 +18,7 @@ show_videos: false
 {% endfor %}
 
 ## Próximamente
-{% assign actions = future_actions | sort: 'date' | reverse %}
+{% assign actions = future_actions | sort: 'date' %}
 {% if actions.size == 0 %}
 Por el momento, no hay acciones planificadas para las próximas fechas.
 {% else %}
