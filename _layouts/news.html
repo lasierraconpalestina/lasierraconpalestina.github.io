@@ -1,0 +1,27 @@
+---
+layout: main
+---
+{% assign year_number = page.date | date: "%Y" %}
+{% assign month_number = page.date | date: "%m" %}
+{% assign day_number = page.date | date: "%e" %}
+{% case month_number %}
+  {% when '01' %} {% assign mes = 'enero' %}
+  {% when '02' %} {% assign mes = 'febrero' %}
+  {% when '03' %} {% assign mes = 'marzo' %}
+  {% when '04' %} {% assign mes = 'abril' %}
+  {% when '05' %} {% assign mes = 'mayo' %}
+  {% when '06' %} {% assign mes = 'junio' %}
+  {% when '07' %} {% assign mes = 'julio' %}
+  {% when '08' %} {% assign mes = 'agosto' %}
+  {% when '09' %} {% assign mes = 'septiembre' %}
+  {% when '10' %} {% assign mes = 'octubre' %}
+  {% when '11' %} {% assign mes = 'noviembre' %}
+  {% when '12' %} {% assign mes = 'diciembre' %}
+{% endcase %}
+
+<div class="content">
+  <h1>{{ page.title | markdownify }}</h1>
+  <span><i>{{ day_number }} de {{ mes }} de {{ year_number }}</i></span>
+  <br><br>
+  {{ content }}
+</div>
