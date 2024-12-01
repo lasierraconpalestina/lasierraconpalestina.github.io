@@ -113,6 +113,8 @@
   media:
     - name: Facebook
       link: https://www.facebook.com/share/v/1BAhJqMW9U/
+    - name: Instagram
+      link: https://www.instagram.com/p/C_LwTnRuWDp/
 
 - id: acto-belgas-sep24
   name: Acto en la Plaza de los Belgas de Villalba
@@ -122,6 +124,14 @@
   media:
     - name: Facebook
       link: https://www.facebook.com/share/v/189h3RFu4w/
+
+- id: jaldia-sep24
+  name: Charla de Jaldia Abu Bakra
+  description: El 19 de septiembre acogimos una charla de Jaldia Abu Bakra sobre el movimiento Masar-Badil, Ruta Revolucionaria Alternativa Palestina en la Obrera de Villalba. La charla también se pudo seguir en streaming por Facebook.
+  date: 2024-09-19
+  media:
+    - name: Facebook
+      link: https://www.facebook.com/share/p/18m7x4iVKf/
 
 - id: intervencionismo-occidente-oriente-medio-oct24
   name: Conferencia Intervencionismo de Occidente en Oriente Medio
