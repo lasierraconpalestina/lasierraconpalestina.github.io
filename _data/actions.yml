@@ -28,6 +28,11 @@
     - name: Instagram
       link: https://www.instagram.com/p/C3k-C_cKM8N/
 
+- id: concentracion-moral-mar24
+  name: Concentración en la Plaza de la Constitución de Moralzarzal
+  description: La Sierra con Palestina se suma a la concentración en la Plaza de la Constitución de Moralzarzal el sábado 16 de marzo a mediodía.
+  date: 2024-03-16
+
 - id: jornada-solidaridad-gordoloba-mar24
   name: Jornada en solidaridad con el pueblo palestino en la Gordoloba
   description: |
