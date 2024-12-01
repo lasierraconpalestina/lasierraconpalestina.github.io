@@ -17,6 +17,12 @@
     source: fa
     name: fa-tiktok
     type: fab
+- name: Twitter
+  link: https://x.com/SConPalestina
+  icon:
+    source: fa
+    name: fa-twitter
+    type: fab
 - name: Email
   link: mailto:lasierraconpalestina@proton.me
   icon:
