@@ -160,5 +160,16 @@
 
 - id: videoforum-galapagar-feb25
   name: Proyección de documentales sobre Palestina en Galapagar
-  description: El viernes 21 de febrero proyectamos el documental _GAZA_ en la biblioteca de Galapagar.
+  description: El viernes 21 de febrero proyectamos los documentales [_High Roads_](https://giulianaracco.net/high-roads/) y _This is Gaza_  en en la biblioteca de Galapagar.
   date: 2025-02-21
+
+- id: videoforum-manzanares-feb25
+  name: Proyección de documentales sobre Palestina en Manzaranes El Real
+  description: El sábado 22 de febrero proyectamos los documentales [_High Roads_](https://giulianaracco.net/high-roads/) y _This is Gaza_  en la sala El Rodaje de Manzanares El Real.
+  date: 2025-02-22
+
+- id: mani-villalba-mar25
+  name: Manifestación en Villalba en solidaridad con Palestina
+  description: La Plataforma La Sierra con Palestina, apoyada por 25 organizaciones sociales, sindicales y polítcas de la Sierra de Guadarrama, convoca una manifestación en Collado Villalba el 15 de marzo. Salimos a la calle en solidaridad con el pueblo palestino y contra el genocidio.
+  date: 2025-03-15
+
