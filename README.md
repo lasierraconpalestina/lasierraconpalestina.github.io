@@ -1,1 +1,3 @@
-This is a template for a personal website, based on my personal website [alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/). I created this template, without content, in order to facilitate the creation of new websites.
+# Instrucciones para editar la página web
+
+En construcción...
