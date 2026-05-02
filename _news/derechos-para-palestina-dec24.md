@@ -24,4 +24,4 @@ Desde La Sierra con Paletina, te animamos a seguirnos en nuestras redes sociales
 {% endfor %}
 </p>
 
-![Artículo 3: Derecho a la vida, libertad y seguridad](/archivos/images/news/derecho_a_la_vida.jpg)
+![Artículo 3: Derecho a la vida, libertad y seguridad](/archivos/imagenes/news/derecho_a_la_vida.jpg)

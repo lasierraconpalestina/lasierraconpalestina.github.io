@@ -38,7 +38,7 @@
   <p>{{ action.description | markdownify }}</p>
 
   <div class="columns is-multiline">
-  {% assign action_dir = "/archivos/actions/" | append: action.id | append: "/" %}
+  {% assign action_dir = "/archivos/acciones/" | append: action.id | append: "/" %}
   {% for file in site.static_files %}
     {% if file.path contains action_dir %}
       {% if file.extname == ".jpg" or file.extname == ".jpeg" or file.extname == ".png" %}
