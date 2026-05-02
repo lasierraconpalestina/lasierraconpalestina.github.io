@@ -24,7 +24,7 @@
   <span><i>{{ day_number }} de {{ mes }} de {{ year_number }}</i></span>
   <br>
   {% for item in action.media %}
-  {% assign selected_medium = site.data.social | where: "name", item.name | first %}
+  {% assign selected_medium = site.data.redessociales | where: "name", item.name | first %}
   <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
     <span class="icon">
       <i

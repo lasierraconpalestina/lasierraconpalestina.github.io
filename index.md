@@ -13,7 +13,7 @@ En la sección de [acciones y eventos](/acciones) puedes encontrar algunos de nu
 #### Contacto
 Puedes encontrarnos en nuestras redes sociales:
 <p class="buttons">
-{% for item in site.data.social %}
+{% for item in site.data.redessociales %}
   {% unless item.name == "Email" %}
   <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
     <span class="icon">

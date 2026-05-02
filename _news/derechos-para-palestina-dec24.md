@@ -9,7 +9,7 @@ Cada día, subimos a nuestras redes sociales una imagen o un post sobre derechos
 
 Desde La Sierra con Paletina, te animamos a seguirnos en nuestras redes sociales y compartir estas publicaciones para que la reivindicación de los derechos humanos del pueblo palestino se oigan más alto y más claro:
 <p class="buttons">
-{% for item in site.data.social %}
+{% for item in site.data.redessociales %}
   {% unless item.name == "Email" %}
   <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
     <span class="icon">

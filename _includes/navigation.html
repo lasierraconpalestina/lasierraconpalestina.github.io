@@ -11,7 +11,7 @@
   </div>
   <div id="navbar-main" class="navbar-menu">
     <div class="navbar-start">
-      {% for item in site.data.navigation %}
+      {% for item in site.data.menu %}
         <a class="navbar-item" href="{{ item.link }}" {% if page.url == item.link %}class="is-dark"{% endif %}>
           {{ item.name }}
         </a>
@@ -19,7 +19,7 @@
     </div>
     <div class="navbar-end">
       <div class="navbar-item">
-        {% for item in site.data.social %}
+        {% for item in site.data.redessociales %}
           <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
             <span class="icon">
               <i
