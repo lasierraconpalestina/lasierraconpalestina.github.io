@@ -29,7 +29,7 @@ green_pali: "#007a3dff"
 
 # Reading Files
 include:
-  - _pages
+  - _paginas
 
 # Collections
 collections:
