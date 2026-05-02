@@ -35,3 +35,9 @@
     source: fa
     name: fa-telegram
     type: fab
+- name: Whatsapp
+  link: https://www.whatsapp.com/channel/0029VaLWE61FnSzANoePHC2S
+  icon:
+    source: fa
+    name: fa-whatsapp
+    type: fab
