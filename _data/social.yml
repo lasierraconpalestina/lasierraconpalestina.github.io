@@ -29,3 +29,9 @@
     source: fa
     name: fa-at
     type: fas
+- name: Telegram
+  link: https://t.me/sierraconpalestina
+  icon:
+    source: fa
+    name: fa-telegram
+    type: fab
