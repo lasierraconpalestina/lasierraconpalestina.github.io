@@ -33,7 +33,7 @@ include:
 
 # Collections
 collections:
-  news:
+  novedades:
     output: true
     permalink: /:collection/:path/
 
