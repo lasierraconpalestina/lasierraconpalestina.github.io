@@ -7,4 +7,4 @@ Convocatoria a una concentración de emergencia en Madrid, el **miércoles 19 de
 
 En tan solo unas horas, Israel ha vuelto a asesinar a más de 400 personas en Gaza.
 
-![Concentración de emergencia en Callao](/assets/actions/mani-madrid-emergencia-mar25/poster.jpg)
+![Concentración de emergencia en Callao](/archivos/actions/mani-madrid-emergencia-mar25/poster.jpg)
