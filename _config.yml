@@ -19,21 +19,21 @@ email: lasierraconpalestina@proton.me
 description: Plataforma de vecinas y vecinos de la Sierra del Guadarrama para apoyar al pueblo palestino.
 author: Alex Hernandez-Garcia
 url: https://lasierraconpalestina.github.io
-logo: assets/images/logo/circle_whitebg.png
-favicon: assets/images/logo/favicon.png
+logo: archivos/imagenes/logo/circle_whitebg.png
+favicon: archivos/imagenes/logo/favicon.png
 
 # Custom variables
-hero_image: /assets/images/banner/maldito_seas_estado_de_israel_gradient_green.png
+hero_image: /archivos/imagenes/banner/maldito_seas_estado_de_israel_gradient_green.png
 red_pali: "#ce1127ff"
 green_pali: "#007a3dff"
 
 # Reading Files
 include:
-  - _pages
+  - _paginas
 
 # Collections
 collections:
-  news:
+  novedades:
     output: true
     permalink: /:collection/:path/
 

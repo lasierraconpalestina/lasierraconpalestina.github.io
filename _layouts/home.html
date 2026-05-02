@@ -16,7 +16,7 @@ layout: main
       <div class="has-text-centered content">
         <h2>Novedades</h2>
       </div>
-      {% assign news = site.news | sort: 'date' | reverse %}
+      {% assign news = site.novedades | sort: 'date' | reverse %}
       {% for entry in news limit:3 %}
         {% include news-item.html %}
       {% endfor %}

@@ -9,7 +9,7 @@ Cada día, subimos a nuestras redes sociales una imagen o un post sobre derechos
 
 Desde La Sierra con Paletina, te animamos a seguirnos en nuestras redes sociales y compartir estas publicaciones para que la reivindicación de los derechos humanos del pueblo palestino se oigan más alto y más claro:
 <p class="buttons">
-{% for item in site.data.social %}
+{% for item in site.data.redessociales %}
   {% unless item.name == "Email" %}
   <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
     <span class="icon">
@@ -24,4 +24,4 @@ Desde La Sierra con Paletina, te animamos a seguirnos en nuestras redes sociales
 {% endfor %}
 </p>
 
-![Artículo 3: Derecho a la vida, libertad y seguridad](/assets/images/news/derecho_a_la_vida.jpg)
+![Artículo 3: Derecho a la vida, libertad y seguridad](/archivos/imagenes/news/derecho_a_la_vida.jpg)

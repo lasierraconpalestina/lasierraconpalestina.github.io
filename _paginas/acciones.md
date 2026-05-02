@@ -8,7 +8,7 @@ show_videos: false
 {% assign future_actions = "" | split: "," %}
 {% assign past_actions = "" | split: "," %}
 
-{% for action in site.data.actions %}
+{% for action in site.data.acciones %}
   {% assign action_date = action.date | date: "%Y-%m-%d" %}
   {% if action_date > today %}
       {% assign future_actions = future_actions | push: action %}

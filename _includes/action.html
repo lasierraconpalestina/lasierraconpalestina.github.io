@@ -1,6 +1,6 @@
-{% assign year_number = action.date | date: "%Y" %}
-{% assign month_number = action.date | date: "%m" %}
-{% assign day_number = action.date | date: "%e" %}
+{% assign year_number = action.fecha | date: "%Y" %}
+{% assign month_number = action.fecha | date: "%m" %}
+{% assign day_number = action.fecha | date: "%e" %}
 {% case month_number %}
   {% when '01' %} {% assign mes = 'enero' %}
   {% when '02' %} {% assign mes = 'febrero' %}
@@ -17,28 +17,28 @@
 {% endcase %}
 
 <div class="content">
-  <h3>{{ action.name | markdownify }}</h3>
+  <h3>{{ action.nombre | markdownify }}</h3>
   <span class="icon">
     <i class="fa-regular fa-calendar"></i>
   </span>
   <span><i>{{ day_number }} de {{ mes }} de {{ year_number }}</i></span>
   <br>
-  {% for item in action.media %}
-  {% assign selected_medium = site.data.social | where: "name", item.name | first %}
-  <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
+  {% for item in action.redes %}
+  {% assign selected_medium = site.data.redessociales | where: "name", item.name | first %}
+  <a class="button is-text" href="{{ item.enlace }}" style="text-decoration: none">
     <span class="icon">
       <i
         class="{{ selected_medium.icon.type }} {{ selected_medium.icon.name }} {{ selected_medium.icon.source }}-{{ include.icon_size }}"
         aria-hidden="true">
       </i>
     </span>
-    <span>{{ item.name }}</span>
+    <span>{{ item.nombre }}</span>
   </a>
   {% endfor %}
-  <p>{{ action.description | markdownify }}</p>
+  <p>{{ action.descripcion | markdownify }}</p>
 
   <div class="columns is-multiline">
-  {% assign action_dir = "/assets/actions/" | append: action.id | append: "/" %}
+  {% assign action_dir = "/archivos/acciones/" | append: action.id | append: "/" %}
   {% for file in site.static_files %}
     {% if file.path contains action_dir %}
       {% if file.extname == ".jpg" or file.extname == ".jpeg" or file.extname == ".png" %}

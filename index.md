@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-image: /assets/images/logo/circle_whitebg.png
+image: /archivos/imagenes/logo/circle_whitebg.png
 show_news: true
 ---
 _La Sierra con Palestina_ es una plataforma de vecinas y vecinos de la Sierra del Guadarrama creada para apoyar al pueblo palestino.
@@ -13,7 +13,7 @@ En la sección de [acciones y eventos](/acciones) puedes encontrar algunos de nu
 #### Contacto
 Puedes encontrarnos en nuestras redes sociales:
 <p class="buttons">
-{% for item in site.data.social %}
+{% for item in site.data.redessociales %}
   {% unless item.name == "Email" %}
   <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
     <span class="icon">
@@ -30,4 +30,4 @@ Puedes encontrarnos en nuestras redes sociales:
 
 ¡Síguenos y únete!
 
-![Elaboración de la bandera gigante de Palestina](/assets/images/flag_in_the_making.jpg)
+![Elaboración de la bandera gigante de Palestina](/archivos/imagenes/flag_in_the_making.jpg)
