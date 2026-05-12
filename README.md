@@ -26,3 +26,8 @@ Para añadir imágenes a una acción, hay que subir las imágenes a una carpeta 
 El GIF inferior muestra un ejemplo del proceso.
 
 ![Cómo crear una carpeta nueva desde la interfaz web de GitHub](/archivos/instrucciones/crear_nueva_carpeta_github.gif)
+
+## Recomendaciones para la edición de la web
+
+- Es recomendable evitar subir archivos de gran tamaño, entre otras cosas porque hace la página web más lenta. Las fotos tomadas con el móvil tienen muy alta resolución, pero con una fracción de su resolución es suficiente para una página web. [Esta página](https://es.windows.day/?p=4541) describe varias opciones para reducir el tamaño de imágenes en Windows.
+- Es conveniente que los nombres de los archivos de la web (las fotos, por ejemplo) no contengan espacios. Hay varias razones, pero una de las más importantes es que hay situaciones en las que los espacios pueden dar lugar a errores difíciles de identificar.
