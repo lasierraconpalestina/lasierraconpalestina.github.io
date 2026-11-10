@@ -237,3 +237,8 @@
   nombre: Taller de cometas por Palestina
   descripcion: Taller de elaboración de cometas celebrado en el Ágora el 3 de octubre de 2026, como actividad de solidaridad con el pueblo palestino. Las cometas se utilizarían al día siguiente en la manifestación convocada en Madrid, como símbolo de apoyo y reivindicación de libertad y justicia para Palestina.
   fecha: 2026-10-03
+
+- id: manifestacion-absolucion-8-becerril-oct26
+  nombre: Por la absolución de las 8 de Becerril y la libertad del pueblo palestino
+  descripcion: Manifestación convocada en Collado Villalba para exigir la absolución de las 8 de Becerril, denunciar la criminalización de la solidaridad y reivindicar la libertad del pueblo palestino. La movilización tuvo lugar en la Plaza de la Estación.
+  fecha: 2026-10-18
